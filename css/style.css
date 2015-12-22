@@ -1,0 +1,46 @@
+h1{
+    text-align: center;
+    color: red;
+}
+#main{
+    width: 100%;
+    margin-left: 100px;
+}
+table{
+    width: 50%;
+}
+img{
+    max-width: 300px;
+    max-height: 300px;
+}
+.detail{
+    max-width: 500px;
+    max-height: 500px;
+}
+.phone{
+    text-align: left;
+    font-size: 20px;
+}
+.money{
+    color: red;
+    font-size: 30px;
+}
+.money::after{
+    content: " VND";
+}
+.infomation{
+    text-align: justify;
+    font-size: 30px;
+}
+.count{
+    text-align: left;
+    font-size: 30px;
+}
+.name{
+    font-size: 30px;
+    color: blue;
+    text-align: left;
+}
+a:link{
+    text-decoration: none;
+}
